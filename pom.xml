@@ -64,7 +64,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>contact-service</finalName>
+		<finalName>customerdetailsrds</finalName>
 	</build>
 
 </project>
