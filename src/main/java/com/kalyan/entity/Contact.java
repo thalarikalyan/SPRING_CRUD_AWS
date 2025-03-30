@@ -23,5 +23,6 @@ private String name;
 private String email;
 private Long mobile;
 private String activesw;
+
 }
 
