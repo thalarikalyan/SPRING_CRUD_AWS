@@ -30,6 +30,7 @@ public class ContactController {
 		boolean status = contactService.insertContactetails(contact);
 		if (status)
 			return new ResponseEntity<String>("Record Inserted", HttpStatus.CREATED);
+
 		else {
 			return new ResponseEntity<String>("Failure to Insert", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
